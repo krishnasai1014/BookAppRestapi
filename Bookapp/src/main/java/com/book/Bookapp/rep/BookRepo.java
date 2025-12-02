@@ -8,6 +8,6 @@ import com.book.Bookapp.entity.BookApp;
 
 public interface BookRepo  extends CrudRepository<BookApp,Integer>
 {
-	
+	BookApp findById(int bid);
 
 }
